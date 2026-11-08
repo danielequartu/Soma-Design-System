@@ -881,7 +881,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.neutral.050}"
+            "$value": "{colour.dark.neutral.950}"
           }
         }
       },
@@ -4987,55 +4987,7 @@
           }
         },
         "overlay": {
-          "black-faint": {
-            "$extensions": {
-              "com.figma": {
-                "scopes": [
-                  "FRAME_FILL",
-                  "SHAPE_FILL"
-                ]
-              }
-            },
-            "$type": "color",
-            "$value": "{colour.dark.overlay.white-40}"
-          },
-          "black-mild": {
-            "$extensions": {
-              "com.figma": {
-                "scopes": [
-                  "FRAME_FILL",
-                  "SHAPE_FILL"
-                ]
-              }
-            },
-            "$type": "color",
-            "$value": "{colour.dark.overlay.white-60}"
-          },
-          "black-strong": {
-            "$extensions": {
-              "com.figma": {
-                "scopes": [
-                  "FRAME_FILL",
-                  "SHAPE_FILL"
-                ]
-              }
-            },
-            "$type": "color",
-            "$value": "{colour.dark.overlay.white-80}"
-          },
-          "black-subtle": {
-            "$extensions": {
-              "com.figma": {
-                "scopes": [
-                  "FRAME_FILL",
-                  "SHAPE_FILL"
-                ]
-              }
-            },
-            "$type": "color",
-            "$value": "{colour.dark.overlay.white-20}"
-          },
-          "white-faint": {
+          "primary-faint": {
             "$extensions": {
               "com.figma": {
                 "scopes": [
@@ -5047,7 +4999,7 @@
             "$type": "color",
             "$value": "{colour.dark.overlay.black-40}"
           },
-          "white-mild": {
+          "primary-mild": {
             "$extensions": {
               "com.figma": {
                 "scopes": [
@@ -5059,7 +5011,7 @@
             "$type": "color",
             "$value": "{colour.dark.overlay.black-60}"
           },
-          "white-strong": {
+          "primary-strong": {
             "$extensions": {
               "com.figma": {
                 "scopes": [
@@ -5071,7 +5023,7 @@
             "$type": "color",
             "$value": "{colour.dark.overlay.black-80}"
           },
-          "white-subtle": {
+          "primary-subtle": {
             "$extensions": {
               "com.figma": {
                 "scopes": [
@@ -5082,6 +5034,54 @@
             },
             "$type": "color",
             "$value": "{colour.dark.overlay.black-20}"
+          },
+          "secondary-faint": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{colour.dark.overlay.white-40}"
+          },
+          "secondary-mild": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{colour.dark.overlay.white-60}"
+          },
+          "secondary-strong": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{colour.dark.overlay.white-80}"
+          },
+          "secondary-subtle": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{colour.dark.overlay.white-20}"
           }
         },
         "success": {
@@ -5283,7 +5283,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.somasynth.400}"
+            "$value": "{colour.dark.somasynth.500}"
           }
         },
         "caution": {
