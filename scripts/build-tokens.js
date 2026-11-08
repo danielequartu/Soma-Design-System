@@ -7,8 +7,8 @@ import { join } from 'node:path';
 const ROOT = 'dtcg-tokens';
 const T1 = join(ROOT, 'SOMA - T1', 'SOMA.json');
 const T2 = join(ROOT, 'SOMA - T2');
-const LIGHT = join(T2, 'SOMA.LIFE [ Light ].json');
-const DARK = join(T2, 'SOMA.LIFE [ Dark ].json');
+const LIGHT = join(T2, '[ Light ] SOMA.LIFE.json');
+const DARK = join(T2, '[ Dark ] SOMA.LIFE.json');
 const OUTPUT = 'build/css';
 
 for (const file of [T1, LIGHT, DARK]) {
