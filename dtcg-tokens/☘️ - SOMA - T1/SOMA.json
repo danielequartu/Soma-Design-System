@@ -3099,9 +3099,9 @@
             "alpha": 1,
             "colorSpace": "srgb",
             "components": [
-              1,
-              1,
-              1
+              0,
+              0,
+              0
             ]
           }
         }
@@ -3385,9 +3385,9 @@
             "alpha": 0.2,
             "colorSpace": "srgb",
             "components": [
-              1,
-              1,
-              1
+              0,
+              0,
+              0
             ]
           }
         },
@@ -3404,9 +3404,9 @@
             "alpha": 0.4,
             "colorSpace": "srgb",
             "components": [
-              1,
-              1,
-              1
+              0,
+              0,
+              0
             ]
           }
         },
@@ -3423,9 +3423,9 @@
             "alpha": 0.6,
             "colorSpace": "srgb",
             "components": [
-              1,
-              1,
-              1
+              0,
+              0,
+              0
             ]
           }
         },
@@ -3442,9 +3442,9 @@
             "alpha": 0.8,
             "colorSpace": "srgb",
             "components": [
-              1,
-              1,
-              1
+              0,
+              0,
+              0
             ]
           }
         }
