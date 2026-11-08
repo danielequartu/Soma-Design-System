@@ -1,0 +1,44 @@
+
+name: Build Soma Design Tokens
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'dtcg-tokens/**'
+      - 'scripts/**'
+      - 'package.json'
+      - '.github/workflows/build-tokens.yml'
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Generate Soma CSS
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install Style Dictionary
+        run: npm install --no-audit --no-fund
+
+      - name: Build CSS tokens
+        run: npm run build
+
+      - name: Upload generated CSS
+        uses: actions/upload-artifact@v4
+        with:
+          name: soma-css-tokens
+          path: build/css/
+          if-no-files-found: error
