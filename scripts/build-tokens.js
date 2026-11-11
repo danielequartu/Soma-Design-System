@@ -5,10 +5,10 @@ import { join } from 'node:path';
 
 // Soma: DTCG JSON -> CSS, preserving aliases as CSS variables.
 const ROOT = 'dtcg-tokens';
-const T1 = join(ROOT, 'SOMA - T1', 'SOMA.json');
+const T1 = join(ROOT, 'SOMA - T1', 'soma.json');
 const T2 = join(ROOT, 'SOMA - T2');
-const LIGHT = join(T2, '[ Light ] SOMA.LIFE.json');
-const DARK = join(T2, '[ Dark ] SOMA.LIFE.json');
+const LIGHT = join(T2, 'light-somalife.json');
+const DARK = join(T2, 'dark-somalife.json');
 const OUTPUT = 'build/css';
 
 for (const file of [T1, LIGHT, DARK]) {
