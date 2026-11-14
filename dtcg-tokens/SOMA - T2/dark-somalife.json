@@ -481,7 +481,7 @@
             "$type": "color",
             "$value": "{sys.colour.surface.neutral.pale}"
           },
-          "logobg": {
+          "logo-bg": {
             "$extensions": {
               "com.figma": {
                 "scopes": [
@@ -531,30 +531,6 @@
             "$type": "color",
             "$value": "{sys.colour.surface.graph.blue.rich}"
           },
-          "gray-soft": {
-            "$extensions": {
-              "com.figma": {
-                "scopes": [
-                  "FRAME_FILL",
-                  "SHAPE_FILL"
-                ]
-              }
-            },
-            "$type": "color",
-            "$value": "{sys.colour.surface.neutral.pale}"
-          },
-          "gray-strong": {
-            "$extensions": {
-              "com.figma": {
-                "scopes": [
-                  "FRAME_FILL",
-                  "SHAPE_FILL"
-                ]
-              }
-            },
-            "$type": "color",
-            "$value": "{sys.colour.surface.neutral.rich}"
-          },
           "green-soft": {
             "$extensions": {
               "com.figma": {
@@ -578,6 +554,30 @@
             },
             "$type": "color",
             "$value": "{sys.colour.surface.graph.green.rich}"
+          },
+          "grey-soft": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.surface.neutral.pale}"
+          },
+          "grey-strong": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "FRAME_FILL",
+                  "SHAPE_FILL"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.surface.neutral.rich}"
           },
           "magenta-soft": {
             "$extensions": {
@@ -847,7 +847,7 @@
             "$type": "color",
             "$value": "{sys.colour.surface.neutral.pale}"
           },
-          "logobg": {
+          "logo-bg": {
             "$extensions": {
               "com.figma": {
                 "scopes": [
@@ -901,7 +901,7 @@
               "$value": "{sys.colour.text.neutral.primary-fixed}"
             }
           },
-          "naked": {
+          "ghost": {
             "branded": {
               "$extensions": {
                 "com.figma": {
@@ -941,7 +941,7 @@
               }
             },
             "$type": "color",
-            "$value": "{sys.colour.text.neutral.primary}"
+            "$value": "{sys.colour.surface.neutral.strong}"
           },
           "audio-recording": {
             "$extensions": {
@@ -953,7 +953,7 @@
               }
             },
             "$type": "color",
-            "$value": "{sys.colour.text.neutral.secondary}"
+            "$value": "{sys.colour.surface.neutral.deep}"
           },
           "audio-sent": {
             "$extensions": {
@@ -965,7 +965,7 @@
               }
             },
             "$type": "color",
-            "$value": "{sys.colour.text.neutral.primary-fixed}"
+            "$value": "{sys.colour.surface.neutral.subtle}"
           },
           "message-received": {
             "$extensions": {
@@ -1170,7 +1170,7 @@
         "$type": "number",
         "$value": "{sys.radius.small}"
       },
-      "cards": {
+      "card": {
         "$extensions": {
           "com.figma": {
             "scopes": [
@@ -1291,7 +1291,7 @@
         "$type": "number",
         "$value": "{sys.radius.small}"
       },
-      "snackbars": {
+      "snackbar": {
         "$extensions": {
           "com.figma": {
             "scopes": [
@@ -1302,7 +1302,7 @@
         "$type": "number",
         "$value": "{sys.radius.small}"
       },
-      "tooltips": {
+      "tooltip": {
         "$extensions": {
           "com.figma": {
             "scopes": [
@@ -1327,7 +1327,7 @@
           "$type": "number",
           "$value": "{sys.spacing.default}"
         },
-        "hpad": {
+        "h-pad": {
           "$extensions": {
             "com.figma": {
               "scopes": [
@@ -1338,7 +1338,7 @@
           "$type": "number",
           "$value": "{sys.spacing.small}"
         },
-        "vpad": {
+        "v-pad": {
           "$extensions": {
             "com.figma": {
               "scopes": [
@@ -1362,7 +1362,7 @@
           "$type": "number",
           "$value": "{sys.spacing.xs}"
         },
-        "hpad": {
+        "h-pad": {
           "$extensions": {
             "com.figma": {
               "scopes": [
@@ -1384,7 +1384,7 @@
           "$type": "number",
           "$value": "{sys.spacing.tiny}"
         },
-        "menugap": {
+        "menu-gap": {
           "$extensions": {
             "com.figma": {
               "scopes": [
@@ -1395,7 +1395,7 @@
           "$type": "number",
           "$value": "{sys.spacing.zero}"
         },
-        "pillgap": {
+        "pill-gap": {
           "$extensions": {
             "com.figma": {
               "scopes": [
@@ -1406,7 +1406,7 @@
           "$type": "number",
           "$value": "{sys.spacing.small}"
         },
-        "vpad": {
+        "v-pad": {
           "$extensions": {
             "com.figma": {
               "scopes": [
@@ -1430,7 +1430,7 @@
           "$type": "number",
           "$value": "{sys.spacing.small}"
         },
-        "hpad": {
+        "h-pad": {
           "$extensions": {
             "com.figma": {
               "scopes": [
@@ -1441,7 +1441,7 @@
           "$type": "number",
           "$value": "{sys.spacing.small}"
         },
-        "vpad": {
+        "v-pad": {
           "$extensions": {
             "com.figma": {
               "scopes": [
@@ -1705,7 +1705,7 @@
         }
       },
       "content": {
-        "bodytext": {
+        "body": {
           "fontfamily": {
             "$extensions": {
               "com.figma": {
@@ -1751,7 +1751,7 @@
             "$value": "{sys.typography.body.medium.weight}"
           }
         },
-        "bodytext-bold": {
+        "body-bold": {
           "fontfamily": {
             "$extensions": {
               "com.figma": {
@@ -2078,7 +2078,7 @@
           }
         }
       },
-      "navigation": {
+      "nav": {
         "default": {
           "fontfamily": {
             "$extensions": {
