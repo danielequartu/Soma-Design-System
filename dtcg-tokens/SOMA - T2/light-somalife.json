@@ -3298,7 +3298,7 @@
                 }
               },
               "$type": "color",
-              "$value": "{colour.light.somalife.600}"
+              "$value": "{colour.light.somalife.400}"
             },
             "primary-pressed": {
               "$extensions": {
@@ -3310,7 +3310,7 @@
                 }
               },
               "$type": "color",
-              "$value": "{colour.light.somalife.700}"
+              "$value": "{colour.light.somalife.300}"
             },
             "primary-subtle-hover": {
               "$extensions": {
@@ -5181,7 +5181,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.yellow.600}"
+            "$value": "{colour.light.yellow.300}"
           },
           "pressed": {
             "$extensions": {
@@ -5193,7 +5193,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.yellow.700}"
+            "$value": "{colour.light.yellow.600}"
           },
           "subtle": {
             "$extensions": {
