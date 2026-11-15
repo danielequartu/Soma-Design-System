@@ -467,7 +467,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.somalife.700}"
+            "$value": "{colour.light.somalife.500}"
           },
           "hover": {
             "$extensions": {
@@ -503,7 +503,97 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.somalife.400}"
+            "$value": "{colour.light.somalife.700}"
+          }
+        },
+        "snackbar": {
+          "alert-soft": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.surface.alert.subtle}"
+          },
+          "alert-strong": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.surface.alert.default}"
+          },
+          "info-soft": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.surface.info.subtle}"
+          },
+          "info-strong": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.surface.info.default}"
+          },
+          "success-soft": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.surface.success.subtle}"
+          },
+          "success-strong": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.surface.success.default}"
+          },
+          "warning-soft": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.surface.warning.subtle}"
+          },
+          "warning-strong": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.surface.warning.default}"
           }
         },
         "tag": {
@@ -901,21 +991,19 @@
               "$value": "{sys.colour.text.neutral.primary-fixed}"
             }
           },
-          "ghost": {
-            "branded": {
-              "$extensions": {
-                "com.figma": {
-                  "scopes": [
-                    "SHAPE_FILL",
-                    "TEXT_FILL"
-                  ]
-                }
-              },
-              "$type": "color",
-              "$value": "{sys.colour.text.neutral.primary}"
-            }
-          },
           "outlined": {
+            "alert-interaction": {
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "SHAPE_FILL",
+                    "TEXT_FILL"
+                  ]
+                }
+              },
+              "$type": "color",
+              "$value": "{colour.light.red.700}"
+            },
             "branded": {
               "$extensions": {
                 "com.figma": {
@@ -927,6 +1015,30 @@
               },
               "$type": "color",
               "$value": "{sys.colour.text.neutral.primary}"
+            },
+            "branded-interaction": {
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "SHAPE_FILL",
+                    "TEXT_FILL"
+                  ]
+                }
+              },
+              "$type": "color",
+              "$value": "{sys.colour.text.neutral.primary}"
+            },
+            "success-interaction": {
+              "$extensions": {
+                "com.figma": {
+                  "scopes": [
+                    "SHAPE_FILL",
+                    "TEXT_FILL"
+                  ]
+                }
+              },
+              "$type": "color",
+              "$value": "{colour.light.green.800}"
             }
           }
         },
@@ -1091,7 +1203,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.neutral.050}"
+            "$value": "{sys.colour.text.neutral.primary}"
           },
           "hover": {
             "$extensions": {
@@ -1103,7 +1215,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.neutral.050}"
+            "$value": "{sys.colour.text.neutral.primary}"
           },
           "pressed": {
             "$extensions": {
@@ -1115,7 +1227,97 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.neutral.950}"
+            "$value": "{sys.colour.text.neutral.primary}"
+          }
+        },
+        "snackbar": {
+          "alert-soft": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.text.neutral.primary}"
+          },
+          "alert-strong": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.text.neutral.inverted}"
+          },
+          "info-soft": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.text.neutral.primary}"
+          },
+          "info-strong": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.text.neutral.inverted}"
+          },
+          "success-soft": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.text.neutral.primary}"
+          },
+          "success-strong": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.text.neutral.inverted}"
+          },
+          "warning-soft": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.text.neutral.primary}"
+          },
+          "warning-strong": {
+            "$extensions": {
+              "com.figma": {
+                "scopes": [
+                  "ALL_SCOPES"
+                ]
+              }
+            },
+            "$type": "color",
+            "$value": "{sys.colour.text.neutral.primary}"
           }
         },
         "topnav": {
@@ -3298,7 +3500,7 @@
                 }
               },
               "$type": "color",
-              "$value": "{colour.light.somalife.400}"
+              "$value": "{colour.light.somalife.600}"
             },
             "primary-pressed": {
               "$extensions": {
@@ -3310,7 +3512,7 @@
                 }
               },
               "$type": "color",
-              "$value": "{colour.light.somalife.300}"
+              "$value": "{colour.light.somalife.700}"
             },
             "primary-subtle-hover": {
               "$extensions": {
@@ -3322,7 +3524,7 @@
                 }
               },
               "$type": "color",
-              "$value": "{colour.light.somalife.200}"
+              "$value": "{colour.light.somalife.050}"
             },
             "primary-subtle-pressed": {
               "$extensions": {
@@ -3334,7 +3536,7 @@
                 }
               },
               "$type": "color",
-              "$value": "{colour.light.somalife.300}"
+              "$value": "{colour.light.somalife.100}"
             },
             "secondary-default": {
               "$extensions": {
@@ -3567,7 +3769,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.orange.100}"
+            "$value": "{colour.light.orange.050}"
           },
           "subtle-hover": {
             "$extensions": {
@@ -3579,7 +3781,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.orange.200}"
+            "$value": "{colour.light.orange.100}"
           },
           "subtle-pressed": {
             "$extensions": {
@@ -3591,7 +3793,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.orange.300}"
+            "$value": "{colour.light.orange.200}"
           }
         },
         "disabled": {
@@ -4801,7 +5003,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.blue.200}"
+            "$value": "{colour.light.blue.050}"
           },
           "subtle-hover": {
             "$extensions": {
@@ -4813,7 +5015,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.blue.300}"
+            "$value": "{colour.light.blue.100}"
           },
           "subtle-pressed": {
             "$extensions": {
@@ -4825,7 +5027,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.blue.400}"
+            "$value": "{colour.light.blue.200}"
           }
         },
         "neutral": {
@@ -5169,7 +5371,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.yellow.500}"
+            "$value": "{colour.light.yellow.400}"
           },
           "hover": {
             "$extensions": {
@@ -5181,7 +5383,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.yellow.300}"
+            "$value": "{colour.light.yellow.500}"
           },
           "pressed": {
             "$extensions": {
@@ -5205,7 +5407,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.yellow.100}"
+            "$value": "{colour.light.yellow.050}"
           },
           "subtle-hover": {
             "$extensions": {
@@ -5217,7 +5419,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.yellow.200}"
+            "$value": "{colour.light.yellow.100}"
           },
           "subtle-pressed": {
             "$extensions": {
@@ -5229,7 +5431,7 @@
               }
             },
             "$type": "color",
-            "$value": "{colour.light.yellow.300}"
+            "$value": "{colour.light.yellow.200}"
           }
         }
       },
